@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <link rel="stylesheet" href="Homepage.css"link>
+    <link rel="stylesheet" href="validationStyle.css"link>
+    <link rel="stylesheet" href="Homepage.css"link>
+    <link rel="stylesheet" href="contactvalidationStyle.css"link>
+   
+    <style>
+        * body{font-family: cursive;}
+       h1{text-align: center;  font-size: 60PX; color: orange;}
+       .copyright{background-color: orange;
+        .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+       }
+    </style>
+    <head>
+        <script  defer src="ValidationContact.js"></script>
+        <script  defer src="ContactValidation.js"></script>
+     
+
+        
+    </head>
+    
+    <header>
+        <nav id="navbar" class="">
+            <div class="nav-wrapper">
+              <!-- Navbar Logo -->  
+              <div class="logo">
+                <!-- Logo  -->
+                <a href="#home"><img width="100px" height="50px" src="3.png"></a>
+              </div>
+          
+              <!-- Navbar Links -->
+              <ul id="menu">
+                <li><a href="../SquadGoalsECD/Homepage.html">Home</a></li>
+                <li><a href="../SquadGoalsECD/about us and landing page.html">About Us</a></li>
+                <li><a href="../SquadGoalsECD/Activities.html">Activities</a></li>
+                <li><a href="../SquadGoalsECD/Gallery.html">Gallery</a></li>
+                <li><a href="../SquadGoalsECD/program.html">Programmes</a></li>
+                <li><a href="../SquadGoalsECD/Contacts.html">Contacts</a></li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <body>
+        
+        <h1>Contact us at Small Steps!</h1>
+    <br>
+    
+    
+
+           <footer>
+            <div class="footer-container">
+                <!-- Left Section: Image and Title -->
+                <div class="footer-left">
+                    <img src="Colorful and Cute Kindergarten Logo (2).png" alt="ECD Image" class="footer-image">
+                    <h3 class="footer-title">Since 14 August 2024</h3>
+                    <h2>SmallSteps Pre-School</h2>
+                </div>
+        
+                <!-- Middle Section: Contact Details --> 
+                <div class="footer-middle" style="background-color: orange;">
+                    <div class="contact-details" style="background-color: orangered;">
+                        <h4>Contact Us</h4>
+                        <p><i class="fa fa-map-marker" style="color: antiquewhite;"></i> Address: 25 Fairview Street, Gqeberha</p>
+                        <p><i class="fa fa-phone" style="color: antiquewhite;"></i> Phone: 041 345 6789</p>
+                        <p><i class="fa fa-envelope" style="color: antiquewhite;"></i> Email: info@smallsteps.co.za</p>
+                        <p><i class="fa fa-clock-o" style="color: antiquewhite;"></i> Operating Hours: Mon-Fri, 7:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+        
+                <!-- Right Section: Contact Form -->
+                <div class="footer-right">
+
+                    <form id="form" action="/" class="pp-contact-form pp-form-stacked">
+                   
+                        <h1 style="font-size: large; font-weight: bold; color: orangered;">Have a question?</h1>
+                       <br>
+                        <!--name validation bellow-->
+                        <div class="pp-input-group pp-name pp-input-required" >
+                        <div class="input-control">
+                            
+                            <input id="username" name="username" type="text" placeholder="Name">
+                            <div class="error"></div>
+                        </div>
+                        </div>
+
+                         <!--email validation bellow-->
+                        <div class="pp-input-group pp-name pp-input-required" >
+                            <div class="input-control">
+                                
+                                <input id="email" name="email" type="text" placeholder="Email">
+                                <div class="error"></div>
+                            </div>
+                            </div>
+
+                            <!--message  validation bellow-->
+                            <div class="pp-input-group pp-name pp-input-required" >
+                                <div class="input-control">
+                                    
+                                    <textarea id="messagebox" name="messagebox" type="text" placeholder="Message"></textarea>
+                                    <div class="error"></div>
+                                </div>
+                                </div>
+
+
+                                <input type="checkbox" name="pp-checkbox" id="pp-checkbox_5fb260d38e586" value="" />
+                                <label for="pp-checkbox_5fb260d38e586">I agree to be contacted via email</label>
+                              
+                       <!--submit button  bellow-->
+                         <div class="pp-button-wrap fl-button-wrap">
+                            <button type="submit" class="fl-button pp-submit-button">
+                                
+                                <span class="fl-button-text">SEND</span>
+                            </button>
+                        </div> 
+                
+                    </form>
+                </div>
+            </div>
+           </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+               
+                
+                    
+                    
+                    
+                    <!--      <form class="pp-contact-form pp-form-stacked" id="form" action="/"  >
+                    
+                        <div class="pp-contact-form-inner pp-clearfix">
+                            <div class="pp-input-group pp-name pp-input-required" >
+                     
+                                <input type="text" name="username" id="username" value="" placeholder="Name" />
+                                <div class="error"></div>
+                            </div>
+        
+                            <div class="pp-input-group pp-email pp-input-required">
+                         
+                                <input id="email" name="email" type="text" placeholder="Email">
+                                <div class="error"></div>
+                            </div>
+        
+                            <div class="pp-input-group pp-message pp-input-required">
+                           
+                                <textarea name="message" id="email" placeholder="Your Message"></textarea>
+                              
+                            </div>
+                        </div>
+        
+                        <div class="pp-input-group pp-checkbox pp-input-required">
+                            <input type="checkbox" name="agree" id="agree" value="1" />
+                            <label for="pp-checkbox_5fb260d38e586">I agree to be contacted via email</label>
+                            <span id="agree-error" class="error-message"></span>
+
+                        </div>
+                        
+        
+                    <div class="pp-button-wrap fl-button-wrap">
+                            <button type="submit" class="fl-button pp-submit-button">
+                                
+                                <span class="fl-button-text">SEND</span>
+                            </button>
+                        </div> 
+
+        
+                      
+                  
+                       
+<br>
+<span id="error"></span>
+                        
+                    </form>
+ -->
+            
+                
+                   
+                </div>
+            </div>
+        </footer>
+        <!-- Copy right -->
+         <div class="copyright">
+            <p>&copy; 2024 SmallSteps Pre-school. All rights reserved.</p>
+         </div>
+   
+        
+    </body>
+    <style>
+        .copyright{background-color: orange;}
+    </style>
+</html>
